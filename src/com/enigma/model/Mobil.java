@@ -41,7 +41,7 @@ public class Mobil {
 
     public void comands(String x){
 
-            this.comands = x.toCharArray();
+            this.comands = x.toUpperCase().toCharArray();
     }
 
     public void run(){
